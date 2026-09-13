@@ -88,7 +88,26 @@ const vocabData = {
 { "ja": "悲しい", "en": "かなしい" },
     ],
     "5": [
-      { "ja": "いきます", "en": "go" }, { "ja": "きます", "en": "come" }, { "ja": "かえります", "en": "go home, return" }, { "ja": "がっこう", "en": "school" }, { "ja": "スーパー", "en": "supermarket" }, { "ja": "えき", "en": "station" }, { "ja": "ひこうき", "en": "airplane" }, { "ja": "ふね", "en": "ship" }, { "ja": "でんしゃ", "en": "electric train" }, { "ja": "ちかてつ", "en": "subway" }, { "ja": "しんかんせん", "en": "the bullet train" }, { "ja": "バス", "en": "bus" }, { "ja": "タクシー", "en": "taxi" }, { "ja": "じてんしゃ", "en": "bicycle" }, { "ja": "あるいて", "en": "on foot" }, { "ja": "ひと", "en": "person, people" }, { "ja": "ともだち", "en": "friend" }, { "ja": "かれ", "en": "he, boyfriend, lover" }, { "ja": "かのじょ", "en": "she, girlfriend, lover" }, { "ja": "かぞく", "en": "family" }, { "ja": "ひとりで", "en": "alone, by oneself" }, { "ja": "せんしゅう", "en": "last week" }, { "ja": "こんしゅう", "en": "this week" }, { "ja": "らいしゅう", "en": "next week" }, { "ja": "せんげつ", "en": "last month" }, { "ja": "こんげつ", "en": "this month" }, { "ja": "らいげつ", "en": "next month" }, { "ja": "きょねん", "en": "last year" }, { "ja": "ことし", "en": "this year" }, { "ja": "らいねん", "en": "next year" }, { "ja": "いつ", "en": "when" }, { "ja": "たんじょうび", "en": "birthday" }
+{ "ja": "苦しい", "en": "くるしい" },
+{ "ja": "苦い", "en": "にがい" },
+{ "ja": "楽しい", "en": "たのしい" },
+{ "ja": "楽な", "en": "らくな" },
+{ "ja": "気楽に", "en": "きらくに" },
+{ "ja": "楽園", "en": "らくえん" },
+{ "ja": "辛い", "en": "からい" },
+{ "ja": "香辛料", "en": "こうしんりょう" },
+{ "ja": "甘い", "en": "あまい" },
+{ "ja": "痛い", "en": "いたい" },
+{ "ja": "頭痛", "en": "ずつう" },
+{ "ja": "有名な", "en": "ゆうめいな" },
+{ "ja": "有る", "en": "ある" },
+{ "ja": "退屈な", "en": "たいくつな" },
+{ "ja": "早退", "en": "そうたい" },
+{ "ja": "退院", "en": "たいいん" },
+{ "ja": "引退", "en": "いんたい" },
+{ "ja": "同じ", "en": "おなじ" },
+{ "ja": "同意", "en": "どうい" },
+{ "ja": "平和", "en": "へいわ" },
     ],
     "6": [
       { "ja": "たべます", "en": "eat" }, { "ja": "のみます", "en": "drink" }, { "ja": "すいます", "en": "smoke" }, { "ja": "みます", "en": "see, look at, watch" }, { "ja": "ききます", "en": "hear, listen" }, { "ja": "よみます", "en": "read" }, { "ja": "かきます", "en": "write, draw, paint" }, { "ja": "かいます", "en": "buy" }, { "ja": "とります", "en": "take" }, { "ja": "します", "en": "do" }, { "ja": "あいます", "en": "meet" }, { "ja": "ごはん", "en": "a meal, cooked rice" }, { "ja": "あさごはん", "en": "breakfast" }, { "ja": "ひるごはん", "en": "lunch" }, { "ja": "ばんごはん", "en": "supper" }, { "ja": "パン", "en": "bread" }, { "ja": "たまご", "en": "egg" }, { "ja": "にく", "en": "meat" }, { "ja": "さかな", "en": "fish" }, { "ja": "やさい", "en": "vegetable" }, { "ja": "くだもの", "en": "fruit" }, { "ja": "みず", "en": "water" }, { "ja": "おちゃ", "en": "tea, green tea" }, { "ja": "こうちゃ", "en": "black tea" }, { "ja": "ぎゅうにゅう", "en": "milk" }, { "ja": "ミルク", "en": "milk" }, { "ja": "ジュース", "en": "juice" }, { "ja": "ビール", "en": "beer" }, { "ja": "おさけ", "en": "alcohol, Japanese rice wine" }, { "ja": "ビデオ", "en": "video tape, video deck" }, { "ja": "えいが", "en": "movie" }, { "ja": "てがみ", "en": "letter" }, { "ja": "レポート", "en": "report" }, { "ja": "しゃしん", "en": "photograph" }, { "ja": "みせ", "en": "store, shop" }, { "ja": "レストラン", "en": "restaurant" }, { "ja": "にわ", "en": "garden" }, { "ja": "しゅくだい", "en": "homework" }, { "ja": "テニス", "en": "tennis" }, { "ja": "サッカー", "en": "soccer" }, { "ja": "おはなみ", "en": "cherry-blossom viewing" }, { "ja": "なに", "en": "what" }, { "ja": "いっしょに", "en": "together" }, { "ja": "ちょっと", "en": "a little while, a little bit" }, { "ja": "いつも", "en": "always, usually" }, { "ja": "ときどき", "en": "sometimes" }, { "ja": "それから", "en": "after that, and then" }
