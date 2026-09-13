@@ -44,7 +44,26 @@ const vocabData = {
 { "ja": "植物", "en": "しょくぶつ" },
     ],
     "3": [
-      { "ja": "ここ", "en": "here, this place" }, { "ja": "そこ", "en": "there, that place near you" }, { "ja": "あそこ", "en": "that place over there" }, { "ja": "どこ", "en": "where, what place" }, { "ja": "こちら", "en": "this way, this place" }, { "ja": "そちら", "en": "that way, that place near you" }, { "ja": "あちら", "en": "that way, that place over there" }, { "ja": "どちら", "en": "which way, where" }, { "ja": "きょうしつ", "en": "classroom" }, { "ja": "しょくどう", "en": "dining hall, canteen" }, { "ja": "じむしょ", "en": "office" }, { "ja": "かいぎしつ", "en": "meeting room" }, { "ja": "うけつけ", "en": "reception desk" }, { "ja": "ロビー", "en": "lobby" }, { "ja": "へや", "en": "room" }, { "ja": "トイレ（おてあらい）", "en": "toilet, restroom" }, { "ja": "かいだん", "en": "staircase" }, { "ja": "エレベーター", "en": "elevator, lift" }, { "ja": "エスカレーター", "en": "escalator" }, { "ja": "おくに", "en": "country" }, { "ja": "かいしゃ", "en": "company" }, { "ja": "うち", "en": "house, home" }, { "ja": "でんわ", "en": "telephone, telephone call" }, { "ja": "くつ", "en": "shoes" }, { "ja": "ネクタイ", "en": "necktie" }, { "ja": "ワイン", "en": "wine" }, { "ja": "たばこ", "en": "tobacco, cigarette" }, { "ja": "うりば", "en": "department, counter" }, { "ja": "ちか", "en": "basement" }, { "ja": "〜かい（〜がい）", "en": "-th floor" }, { "ja": "なんがい", "en": "what floor" }, { "ja": "〜えん", "en": "-yen" }, { "ja": "いくら", "en": "how much" }, { "ja": "ひゃく", "en": "hundred" }, { "ja": "せん", "en": "thousand" }, { "ja": "まん", "en": "ten thousand" }, { "ja": "すみません。", "en": "Excuse me." }, { "ja": "〜で ございます。", "en": "(polite equivalent of です)" }, { "ja": "［〜を］みせて ください。", "en": "Please show me [~]." }, { "ja": "じゃ", "en": "well, then, in that case" }, { "ja": "［〜を］ください。", "en": "Give me [~], please." }
+{ "ja": "生物学", "en": "せいぶつがく" },
+{ "ja": "物理学", "en": "ぶつりがく" },
+{ "ja": "物価", "en": "ぶっか" },
+{ "ja": "食物", "en": "しょくもつ" },
+{ "ja": "家族", "en": "かぞく" },
+{ "ja": "公園", "en": "こうえん" },
+{ "ja": "公の", "en": "おおやけの" },
+{ "ja": "遊園地", "en": "ゆうえんち" },
+{ "ja": "園芸", "en": "えんげい" },
+{ "ja": "医者", "en": "いしゃ" },
+{ "ja": "医学", "en": "いがく" },
+{ "ja": "女医", "en": "じょい" },
+{ "ja": "宿題", "en": "しゅくだい" },
+{ "ja": "宿泊", "en": "しゅくはく" },
+{ "ja": "問題", "en": "もんだい" },
+{ "ja": "寺", "en": "てら" },
+{ "ja": "図書館", "en": "としょかん" },
+{ "ja": "地図", "en": "ちず" },
+{ "ja": "図る", "en": "はかる" },
+{ "ja": "教室", "en": "きょうしつ" },
     ],
     "4": [
       { "ja": "おきます", "en": "get up, wake up" }, { "ja": "ねます", "en": "sleep, go to bed" }, { "ja": "はたらきます", "en": "work" }, { "ja": "やすみます", "en": "take a rest, take a holiday" }, { "ja": "べんきょうします", "en": "study" }, { "ja": "おわります", "en": "finish" }, { "ja": "デパート", "en": "department store" }, { "ja": "ぎんこう", "en": "bank" }, { "ja": "ゆうびんきょく", "en": "post office" }, { "ja": "としょかん", "en": "library" }, { "ja": "びじゅつかん", "en": "art museum" }, { "ja": "いま", "en": "now" }, { "ja": "〜じ", "en": "-o'clock" }, { "ja": "〜ふん（〜ぷん）", "en": "-minute" }, { "ja": "はん", "en": "half" }, { "ja": "なんじ", "en": "what time" }, { "ja": "なんぷん", "en": "what minute" }, { "ja": "ごぜん", "en": "a.m., morning" }, { "ja": "ごご", "en": "p.m., afternoon" }, { "ja": "あさ", "en": "morning" }, { "ja": "ひる", "en": "daytime, noon" }, { "ja": "ばん（よる）", "en": "night, evening" }, { "ja": "おととい", "en": "the day before yesterday" }, { "ja": "きのう", "en": "yesterday" }, { "ja": "きょう", "en": "today" }, { "ja": "あした", "en": "tomorrow" }, { "ja": "あさって", "en": "the day after tomorrow" }, { "ja": "けさ", "en": "this morning" }, { "ja": "こんばん", "en": "this evening, tonight" }, { "ja": "やすみ", "en": "rest, a holiday, a day off" }, { "ja": "ひるやすみ", "en": "lunchtime" }, { "ja": "まいあさ", "en": "every morning" }, { "ja": "まいばん", "en": "every night" }, { "ja": "まいにち", "en": "every day" }, { "ja": "げつようび", "en": "Monday" }, { "ja": "かようび", "en": "Tuesday" }, { "ja": "すいようび", "en": "Wednesday" }, { "ja": "もくようび", "en": "Thursday" }, { "ja": "きんようび", "en": "Friday" }, { "ja": "どようび", "en": "Saturday" }, { "ja": "にちようび", "en": "Sunday" }, { "ja": "なんようび", "en": "what day of the week" }, { "ja": "ばんごう", "en": "number" }, { "ja": "なんばん", "en": "what number" }, { "ja": "〜から", "en": "from ~" }, { "ja": "〜まで", "en": "up to ~, until ~" }, { "ja": "〜と〜", "en": "~ and ~ (used to connect nouns)" }, { "ja": "そちら", "en": "your place" }, { "ja": "たいへんですね。", "en": "That's tough, isn't it?" }, { "ja": "えーと", "en": "well, let me see" }, { "ja": "おねがいします。", "en": "Please." }, { "ja": "かしこまりました。", "en": "Certainly (sir, madam)." }, { "ja": "おといあわせの ばんごう", "en": "the number being inquired about" }, { "ja": "［どうも］ありがとう ございました。", "en": "Thank you very much." }
