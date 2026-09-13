@@ -1,6 +1,25 @@
 const vocabData = {
     "1": [
-      { "ja": "わたし", "en": "I" }, { "ja": "あなた", "en": "you" }, { "ja": "あの人", "kana": "あのひと", "en": "that person, he, she" }, { "ja": "〜さん", "en": "Mr., Ms." }, { "ja": "〜ちゃん", "en": "suffix added to a child's name" }, { "ja": "〜人", "kana": "〜じん", "en": "suffix meaning nationality" }, { "ja": "先生", "kana": "せんせい", "en": "teacher, instructor" }, { "ja": "教師", "kana": "きょうし", "en": "teacher, instructor" }, { "ja": "学生", "kana": "がくせい", "en": "student" }, { "ja": "会社員", "kana": "かいしゃいん", "en": "company employee" }, { "ja": "社員", "kana": "しゃいん", "en": "employee of ~ Company" }, { "ja": "銀行員", "kana": "ぎんこういん", "en": "bank employee" }, { "ja": "医者", "kana": "いしゃ", "en": "medical doctor" }, { "ja": "研究者", "kana": "けんきゅうしゃ", "en": "researcher, scholar" }, { "ja": "大学", "kana": "だいがく", "en": "university" }, { "ja": "病院", "kana": "びょういん", "en": "hospital" }, { "ja": "だれ（どなた）", "en": "who" }, { "ja": "〜歳", "kana":"〜さい", "en": "~ years old" }, { "ja": "何歳", "kana":"なんさい", "en": "how old" }, { "ja": "はい", "en": "yes" }, { "ja": "いいえ", "en": "no" }, { "ja": "はじめまして。", "en": "How do you do?" }, { "ja": "〜から きました。", "en": "I'm from ~." }, { "ja": "どうぞ よろしく。", "en": "Pleased to meet you." }, { "ja": "しつれいですが", "en": "Excuse me, but" }, { "ja": "おなまえは？", "en": "May I have your name?" }
+{ "ja": "連絡", "en": "れんらく" },
+{ "ja": "洗濯", "en": "せんたく" },
+{ "ja": "結婚", "en": "けっこん" },
+{ "ja": "結ぶ", "en": "むすぶ" },
+{ "ja": "離婚", "en": "りこん" },
+{ "ja": "運転", "en": "うんてん" },
+{ "ja": "運ぶ", "en": "はこぶ" },
+{ "ja": "案内", "en": "あんない" },
+{ "ja": "提案", "en": "ていあん" },
+{ "ja": "卒業", "en": "そつぎょう" },
+{ "ja": "新卒者", "en": "しんそつ" },
+{ "ja": "利用", "en": "りよう" },
+{ "ja": "用事", "en": "ようじ" },
+{ "ja": "用意", "en": "ようい" },
+{ "ja": "用いる", "en": "もちいる" },
+{ "ja": "去年", "en": "きょねん" },
+{ "ja": "過去", "en": "かこ" },
+{ "ja": "趣味", "en": "しゅみ" },
+{ "ja": "味", "en": "あじ" },
+{ "ja": "味わう", "en": "あじわう" }
     ],
     "2": [
       { "ja": "これ", "en": "this (thing here)" }, { "ja": "それ", "en": "that (thing near you)" }, { "ja": "あれ", "en": "that (thing over there)" }, { "ja": "この〜", "en": "this ~, this ~ here" }, { "ja": "その〜", "en": "that ~, that ~ near you" }, { "ja": "あの〜", "en": "that ~, that ~ over there" }, { "ja": "ほん", "en": "book" }, { "ja": "じしょ", "en": "dictionary" }, { "ja": "ざっし", "en": "magazine" }, { "ja": "しんぶん", "en": "newspaper" }, { "ja": "ノート", "en": "notebook" }, { "ja": "てちょう", "en": "pocket notebook" }, { "ja": "めいし", "en": "business card" }, { "ja": "カード", "en": "card" }, { "ja": "えんぴつ", "en": "pencil" }, { "ja": "ボールペン", "en": "ballpoint pen" }, { "ja": "シャープペンシル", "en": "mechanical pencil" }, { "ja": "かぎ", "en": "key" }, { "ja": "とけい", "en": "watch, clock" }, { "ja": "かさ", "en": "umbrella" }, { "ja": "かばん", "en": "bag, briefcase" }, { "ja": "カセットテープ", "en": "cassette tape" }, { "ja": "テープレコーダー", "en": "tape recorder" }, { "ja": "テレビ", "en": "television" }, { "ja": "ラジオ", "en": "radio" }, { "ja": "カメラ", "en": "camera" }, { "ja": "コンピューター", "en": "computer" }, { "ja": "じどうしゃ", "en": "automobile, car" }, { "ja": "つくえ", "en": "desk" }, { "ja": "いす", "en": "chair" }, { "ja": "チョコレート", "en": "chocolate" }, { "ja": "コーヒー", "en": "coffee" }, { "ja": "えいご", "en": "the English language" }, { "ja": "にほんご", "en": "the Japanese language" }, { "ja": "〜ご", "en": "~ language" }, { "ja": "なん", "en": "what" }, { "ja": "そう", "en": "so" }, { "ja": "ちがいます。", "en": "No, it isn't. / You are wrong." }, { "ja": "そうですか。", "en": "I see. / Is that so?" }, { "ja": "あのう", "en": "well" }, { "ja": "ほんの きもちです。", "en": "It's a token of my gratitude." }, { "ja": "どうぞ。", "en": "Please. / Here you are." }, { "ja": "どうも。", "en": "Well, thanks." }, { "ja": "ありがとう。", "en": "Thank you." }, { "ja": "これから おせわに なります。", "en": "I hope for your kind assistance hereafter." }, { "ja": "こちらこそ よろしく。", "en": "I am pleased to meet you." }
