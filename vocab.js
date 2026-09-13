@@ -187,7 +187,27 @@ const vocabData = {
 { "ja": "無口な", "en": "むくちな" },
     ],
     "9": [
-      { "ja": "わかります", "en": "understand" }, { "ja": "あります", "en": "have" }, { "ja": "すき", "en": "like" }, { "ja": "きらい", "en": "dislike" }, { "ja": "じょうず", "en": "good at" }, { "ja": "へた", "en": "poor at" }, { "ja": "のみもの", "en": "drinks" }, { "ja": "りょうり", "en": "dish (cooked food), cooking" }, { "ja": "スポーツ", "en": "sport" }, { "ja": "やきゅう", "en": "baseball" }, { "ja": "ダンス", "en": "dance" }, { "ja": "りょこう", "en": "trip, tour" }, { "ja": "おんがく", "en": "music" }, { "ja": "うた", "en": "song" }, { "ja": "クラシック", "en": "classical music" }, { "ja": "ジャズ", "en": "jazz" }, { "ja": "コンサート", "en": "concert" }, { "ja": "カラオケ", "en": "karaoke" }, { "ja": "かぶき", "en": "Kabuki (traditional Japanese musical drama)" }, { "ja": "え", "en": "picture, drawing" }, { "ja": "じ", "en": "letter, character" }, { "ja": "かんじ", "en": "Chinese characters" }, { "ja": "ひらがな", "en": "Hiragana script" }, { "ja": "かたかな", "en": "Katakana script" }, { "ja": "ローマじ", "en": "the Roman alphabet" }, { "ja": "こまかいおかね", "en": "small change" }, { "ja": "チケット", "en": "ticket" }, { "ja": "じかん", "en": "time" }, { "ja": "ようじ", "en": "something to do, errand" }, { "ja": "やくそく", "en": "appointment, promise" }, { "ja": "アルバイト", "en": "side job, part-time job" }, { "ja": "ごしゅじん", "en": "(someone else's) husband" }, { "ja": "おっと", "en": "(my) husband" }, { "ja": "しゅじん", "en": "(my) husband" }, { "ja": "おくさん", "en": "(someone else's) wife" }, { "ja": "つま", "en": "(my) wife" }, { "ja": "かない", "en": "(my) wife" }, { "ja": "こども", "en": "child" }, { "ja": "よく", "en": "well, much" }, { "ja": "だいたい", "en": "mostly, roughly" }, { "ja": "たくさん", "en": "many, much" }, { "ja": "すこし", "en": "a little, a few" }, { "ja": "ぜんぜん", "en": "not at all (used with negatives)" }, { "ja": "はやく", "en": "early, quickly" }, { "ja": "から", "en": "because" }
+{ "ja": "自然", "en": "しぜん" },
+{ "ja": "全然", "en": "ぜんぜん" },
+{ "ja": "当たる", "en": "あたる" },
+{ "ja": "当たり前", "en": "あたりまえ" },
+{ "ja": "当てはめる", "en": "あてはめる" },
+{ "ja": "心当たり", "en": "こころあたり" },
+{ "ja": "予定", "en": "よてい" },
+{ "ja": "予約", "en": "よやく" },
+{ "ja": "予想", "en": "よそう" },
+{ "ja": "野生の", "en": "やせいの" },
+{ "ja": "野菜", "en": "やさい" },
+{ "ja": "原因", "en": "げんいん" },
+{ "ja": "原料", "en": "げんりょう" },
+{ "ja": "原因", "en": "げんいん" },
+{ "ja": "正しい", "en": "ただしい" },
+{ "ja": "正解", "en": "せいかい" },
+{ "ja": "正直な", "en": "しょうじきな" },
+{ "ja": "正面", "en": "しょうめん" },
+{ "ja": "正に", "en": "まさに" },
+{ "ja": "糸", "en": "いと" },
+{ "ja": "高級な", "en": "こうきゅうな" },
     ],
     "10": [
       { "ja": "あります", "en": "exist, be (inanimate things)" }, { "ja": "います", "en": "exist, be (animate things)" }, { "ja": "いろいろ", "en": "various" }, { "ja": "おとこのひと", "en": "man" }, { "ja": "おんなのひと", "en": "woman" }, { "ja": "おとこのこ", "en": "boy" }, { "ja": "おんなのこ", "en": "girl" }, { "ja": "いぬ", "en": "dog" }, { "ja": "ねこ", "en": "cat" }, { "ja": "パンダ", "en": "panda" }, { "ja": "ぞう", "en": "elephant" }, { "ja": "き", "en": "tree, wood" }, { "ja": "もの", "en": "thing" }, { "ja": "でんち", "en": "battery" }, { "ja": "はこ", "en": "box" }, { "ja": "スイッチ", "en": "switch" }, { "ja": "れいぞうこ", "en": "refrigerator" }, { "ja": "テーブル", "en": "table" }, { "ja": "ベッド", "en": "bed" }, { "ja": "たな", "en": "shelf" }, { "ja": "ドア", "en": "door" }, { "ja": "まど", "en": "window" }, { "ja": "ポスト", "en": "postbox, mailbox" }, { "ja": "ビル", "en": "building" }, { "ja": "ATM", "en": "automated teller machine" }, { "ja": "コンビニ", "en": "convenience store" }, { "ja": "こうえん", "en": "park" }, { "ja": "きっさてん", "en": "coffee shop, cafe" }, { "ja": "～や", "en": "~ shop" }, { "ja": "のりば", "en": "a fixed place to catch taxis, trains, etc." }, { "ja": "けん", "en": "prefecture" }, { "ja": "うえ", "en": "on, above, over" }, { "ja": "した", "en": "under, below, beneath" }, { "ja": "まえ", "en": "front, before" }, { "ja": "うしろ", "en": "back, behind" }, { "ja": "みぎ", "en": "right (side)" }, { "ja": "ひだり", "en": "left (side)" }, { "ja": "なか", "en": "in, inside" }, { "ja": "そと", "en": "outside" }, { "ja": "となり", "en": "next, next door" }, { "ja": "ちかく", "en": "near, vicinity" }, { "ja": "あいだ", "en": "between, among" }, { "ja": "や", "en": "~, ~, and so on" }
