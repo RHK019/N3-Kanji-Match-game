@@ -22,7 +22,26 @@ const vocabData = {
 { "ja": "味わう", "en": "あじわう" }
     ],
     "2": [
-      { "ja": "これ", "en": "this (thing here)" }, { "ja": "それ", "en": "that (thing near you)" }, { "ja": "あれ", "en": "that (thing over there)" }, { "ja": "この〜", "en": "this ~, this ~ here" }, { "ja": "その〜", "en": "that ~, that ~ near you" }, { "ja": "あの〜", "en": "that ~, that ~ over there" }, { "ja": "ほん", "en": "book" }, { "ja": "じしょ", "en": "dictionary" }, { "ja": "ざっし", "en": "magazine" }, { "ja": "しんぶん", "en": "newspaper" }, { "ja": "ノート", "en": "notebook" }, { "ja": "てちょう", "en": "pocket notebook" }, { "ja": "めいし", "en": "business card" }, { "ja": "カード", "en": "card" }, { "ja": "えんぴつ", "en": "pencil" }, { "ja": "ボールペン", "en": "ballpoint pen" }, { "ja": "シャープペンシル", "en": "mechanical pencil" }, { "ja": "かぎ", "en": "key" }, { "ja": "とけい", "en": "watch, clock" }, { "ja": "かさ", "en": "umbrella" }, { "ja": "かばん", "en": "bag, briefcase" }, { "ja": "カセットテープ", "en": "cassette tape" }, { "ja": "テープレコーダー", "en": "tape recorder" }, { "ja": "テレビ", "en": "television" }, { "ja": "ラジオ", "en": "radio" }, { "ja": "カメラ", "en": "camera" }, { "ja": "コンピューター", "en": "computer" }, { "ja": "じどうしゃ", "en": "automobile, car" }, { "ja": "つくえ", "en": "desk" }, { "ja": "いす", "en": "chair" }, { "ja": "チョコレート", "en": "chocolate" }, { "ja": "コーヒー", "en": "coffee" }, { "ja": "えいご", "en": "the English language" }, { "ja": "にほんご", "en": "the Japanese language" }, { "ja": "〜ご", "en": "~ language" }, { "ja": "なん", "en": "what" }, { "ja": "そう", "en": "so" }, { "ja": "ちがいます。", "en": "No, it isn't. / You are wrong." }, { "ja": "そうですか。", "en": "I see. / Is that so?" }, { "ja": "あのう", "en": "well" }, { "ja": "ほんの きもちです。", "en": "It's a token of my gratitude." }, { "ja": "どうぞ。", "en": "Please. / Here you are." }, { "ja": "どうも。", "en": "Well, thanks." }, { "ja": "ありがとう。", "en": "Thank you." }, { "ja": "これから おせわに なります。", "en": "I hope for your kind assistance hereafter." }, { "ja": "こちらこそ よろしく。", "en": "I am pleased to meet you." }
+{ "ja": "授業", "en": "じゅぎょう" },
+{ "ja": "橋", "en": "はし" },
+{ "ja": "歩道橋", "en": "ほどうきょう" },
+{ "ja": "花火", "en": "はなび" },
+{ "ja": "薬局", "en": "やっきょく" },
+{ "ja": "色", "en": "いろ" },
+{ "ja": "特色", "en": "とくしょく" },
+{ "ja": "服", "en": "ふく" },
+{ "ja": "服装", "en": "ふくそう" },
+{ "ja": "客", "en": "きゃく" },
+{ "ja": "乗客", "en": "じょうきゃく" },
+{ "ja": "客観的な", "en": "きゃっかんてきな" },
+{ "ja": "犬", "en": "いぬ" },
+{ "ja": "文", "en": "ぶん" },
+{ "ja": "作文", "en": "さくぶん" },
+{ "ja": "文化", "en": "ぶんか" },
+{ "ja": "本物", "en": "ほんもの" },
+{ "ja": "偽物", "en": "にせもの" },
+{ "ja": "動物", "en": "どうぶつ" },
+{ "ja": "植物", "en": "しょくぶつ" },
     ],
     "3": [
       { "ja": "ここ", "en": "here, this place" }, { "ja": "そこ", "en": "there, that place near you" }, { "ja": "あそこ", "en": "that place over there" }, { "ja": "どこ", "en": "where, what place" }, { "ja": "こちら", "en": "this way, this place" }, { "ja": "そちら", "en": "that way, that place near you" }, { "ja": "あちら", "en": "that way, that place over there" }, { "ja": "どちら", "en": "which way, where" }, { "ja": "きょうしつ", "en": "classroom" }, { "ja": "しょくどう", "en": "dining hall, canteen" }, { "ja": "じむしょ", "en": "office" }, { "ja": "かいぎしつ", "en": "meeting room" }, { "ja": "うけつけ", "en": "reception desk" }, { "ja": "ロビー", "en": "lobby" }, { "ja": "へや", "en": "room" }, { "ja": "トイレ（おてあらい）", "en": "toilet, restroom" }, { "ja": "かいだん", "en": "staircase" }, { "ja": "エレベーター", "en": "elevator, lift" }, { "ja": "エスカレーター", "en": "escalator" }, { "ja": "おくに", "en": "country" }, { "ja": "かいしゃ", "en": "company" }, { "ja": "うち", "en": "house, home" }, { "ja": "でんわ", "en": "telephone, telephone call" }, { "ja": "くつ", "en": "shoes" }, { "ja": "ネクタイ", "en": "necktie" }, { "ja": "ワイン", "en": "wine" }, { "ja": "たばこ", "en": "tobacco, cigarette" }, { "ja": "うりば", "en": "department, counter" }, { "ja": "ちか", "en": "basement" }, { "ja": "〜かい（〜がい）", "en": "-th floor" }, { "ja": "なんがい", "en": "what floor" }, { "ja": "〜えん", "en": "-yen" }, { "ja": "いくら", "en": "how much" }, { "ja": "ひゃく", "en": "hundred" }, { "ja": "せん", "en": "thousand" }, { "ja": "まん", "en": "ten thousand" }, { "ja": "すみません。", "en": "Excuse me." }, { "ja": "〜で ございます。", "en": "(polite equivalent of です)" }, { "ja": "［〜を］みせて ください。", "en": "Please show me [~]." }, { "ja": "じゃ", "en": "well, then, in that case" }, { "ja": "［〜を］ください。", "en": "Give me [~], please." }
