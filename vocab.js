@@ -66,7 +66,26 @@ const vocabData = {
 { "ja": "教室", "en": "きょうしつ" },
     ],
     "4": [
-      { "ja": "おきます", "en": "get up, wake up" }, { "ja": "ねます", "en": "sleep, go to bed" }, { "ja": "はたらきます", "en": "work" }, { "ja": "やすみます", "en": "take a rest, take a holiday" }, { "ja": "べんきょうします", "en": "study" }, { "ja": "おわります", "en": "finish" }, { "ja": "デパート", "en": "department store" }, { "ja": "ぎんこう", "en": "bank" }, { "ja": "ゆうびんきょく", "en": "post office" }, { "ja": "としょかん", "en": "library" }, { "ja": "びじゅつかん", "en": "art museum" }, { "ja": "いま", "en": "now" }, { "ja": "〜じ", "en": "-o'clock" }, { "ja": "〜ふん（〜ぷん）", "en": "-minute" }, { "ja": "はん", "en": "half" }, { "ja": "なんじ", "en": "what time" }, { "ja": "なんぷん", "en": "what minute" }, { "ja": "ごぜん", "en": "a.m., morning" }, { "ja": "ごご", "en": "p.m., afternoon" }, { "ja": "あさ", "en": "morning" }, { "ja": "ひる", "en": "daytime, noon" }, { "ja": "ばん（よる）", "en": "night, evening" }, { "ja": "おととい", "en": "the day before yesterday" }, { "ja": "きのう", "en": "yesterday" }, { "ja": "きょう", "en": "today" }, { "ja": "あした", "en": "tomorrow" }, { "ja": "あさって", "en": "the day after tomorrow" }, { "ja": "けさ", "en": "this morning" }, { "ja": "こんばん", "en": "this evening, tonight" }, { "ja": "やすみ", "en": "rest, a holiday, a day off" }, { "ja": "ひるやすみ", "en": "lunchtime" }, { "ja": "まいあさ", "en": "every morning" }, { "ja": "まいばん", "en": "every night" }, { "ja": "まいにち", "en": "every day" }, { "ja": "げつようび", "en": "Monday" }, { "ja": "かようび", "en": "Tuesday" }, { "ja": "すいようび", "en": "Wednesday" }, { "ja": "もくようび", "en": "Thursday" }, { "ja": "きんようび", "en": "Friday" }, { "ja": "どようび", "en": "Saturday" }, { "ja": "にちようび", "en": "Sunday" }, { "ja": "なんようび", "en": "what day of the week" }, { "ja": "ばんごう", "en": "number" }, { "ja": "なんばん", "en": "what number" }, { "ja": "〜から", "en": "from ~" }, { "ja": "〜まで", "en": "up to ~, until ~" }, { "ja": "〜と〜", "en": "~ and ~ (used to connect nouns)" }, { "ja": "そちら", "en": "your place" }, { "ja": "たいへんですね。", "en": "That's tough, isn't it?" }, { "ja": "えーと", "en": "well, let me see" }, { "ja": "おねがいします。", "en": "Please." }, { "ja": "かしこまりました。", "en": "Certainly (sir, madam)." }, { "ja": "おといあわせの ばんごう", "en": "the number being inquired about" }, { "ja": "［どうも］ありがとう ございました。", "en": "Thank you very much." }
+{ "ja": "出席", "en": "しゅっせき" },
+{ "ja": "欠席", "en": "けっせき" },
+{ "ja": "座席", "en": "ざせき" },
+{ "ja": "着席", "en": "ちゃくせき" },
+{ "ja": "今度", "en": "こんど" },
+{ "ja": "毎度", "en": "まいど" },
+{ "ja": "度々", "en": "たびたび" },
+{ "ja": "この度", "en": "このたび" },
+{ "ja": "飛行機", "en": "ひこうき" },
+{ "ja": "機内", "en": "きない" },
+{ "ja": "場所", "en": "ばしょ" },
+{ "ja": "場合", "en": "ばあい" },
+{ "ja": "市場", "en": "しじょう" },
+{ "ja": "県", "en": "けん" },
+{ "ja": "県庁", "en": "けんちょう" },
+{ "ja": "東京都", "en": "とうきょうと" },
+{ "ja": "暖かい", "en": "あたたかい" },
+{ "ja": "暖房", "en": "だんぼう" },
+{ "ja": "涼しい", "en": "すずしい" },
+{ "ja": "悲しい", "en": "かなしい" },
     ],
     "5": [
       { "ja": "いきます", "en": "go" }, { "ja": "きます", "en": "come" }, { "ja": "かえります", "en": "go home, return" }, { "ja": "がっこう", "en": "school" }, { "ja": "スーパー", "en": "supermarket" }, { "ja": "えき", "en": "station" }, { "ja": "ひこうき", "en": "airplane" }, { "ja": "ふね", "en": "ship" }, { "ja": "でんしゃ", "en": "electric train" }, { "ja": "ちかてつ", "en": "subway" }, { "ja": "しんかんせん", "en": "the bullet train" }, { "ja": "バス", "en": "bus" }, { "ja": "タクシー", "en": "taxi" }, { "ja": "じてんしゃ", "en": "bicycle" }, { "ja": "あるいて", "en": "on foot" }, { "ja": "ひと", "en": "person, people" }, { "ja": "ともだち", "en": "friend" }, { "ja": "かれ", "en": "he, boyfriend, lover" }, { "ja": "かのじょ", "en": "she, girlfriend, lover" }, { "ja": "かぞく", "en": "family" }, { "ja": "ひとりで", "en": "alone, by oneself" }, { "ja": "せんしゅう", "en": "last week" }, { "ja": "こんしゅう", "en": "this week" }, { "ja": "らいしゅう", "en": "next week" }, { "ja": "せんげつ", "en": "last month" }, { "ja": "こんげつ", "en": "this month" }, { "ja": "らいげつ", "en": "next month" }, { "ja": "きょねん", "en": "last year" }, { "ja": "ことし", "en": "this year" }, { "ja": "らいねん", "en": "next year" }, { "ja": "いつ", "en": "when" }, { "ja": "たんじょうび", "en": "birthday" }
