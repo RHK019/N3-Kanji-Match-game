@@ -359,7 +359,19 @@ const vocabData = {
 { "ja": "講義", "en": "こうぎ" },
     ],
     "16": [
-      { "ja": "のります", "en": "get on, board" }, { "ja": "おります", "en": "get off, alight" }, { "ja": "のりかえます", "en": "change (trains, etc.)" }, { "ja": "あびます", "en": "take (a shower)" }, { "ja": "いれます", "en": "put in, insert" }, { "ja": "だします", "en": "take out, hand in, pay" }, { "ja": "はいります", "en": "enter (university)" }, { "ja": "でます", "en": "graduate from (university)" }, { "ja": "やめます", "en": "quit or retire from (a company), stop, give up" }, { "ja": "おします", "en": "push, press" }, { "ja": "わかい", "en": "young" }, { "ja": "ながい", "en": "long" }, { "ja": "みじかい", "en": "short" }, { "ja": "あかるい", "en": "bright, light" }, { "ja": "くらい", "en": "dark" }, { "ja": "せがたかい", "en": "tall (referring to person)" }, { "ja": "あたまがいい", "en": "clever, smart" }, { "ja": "からだ", "en": "body" }, { "ja": "あたま", "en": "head" }, { "ja": "かみ", "en": "hair" }, { "ja": "かお", "en": "face" }, { "ja": "め", "en": "eye" }, { "ja": "みみ", "en": "ear" }, { "ja": "くち", "en": "mouth" }, { "ja": "は", "en": "tooth" }, { "ja": "おなか", "en": "stomach" }, { "ja": "あし", "en": "leg, foot" }, { "ja": "サービス", "en": "service" }, { "ja": "ジョギング", "en": "jogging" }, { "ja": "シャワー", "en": "shower" }, { "ja": "みどり", "en": "green, greenery" }, { "ja": "おてら", "en": "Buddhist temple" }, { "ja": "じんじゃ", "en": "Shinto shrine" }, { "ja": "りゅうがくせい", "en": "foreign student" }, { "ja": "ばん", "en": "number ~" }, { "ja": "どうやって", "en": "in what way, how" }, { "ja": "どの", "en": "which ~ (used for three or more)" }, { "ja": "どれ", "en": "which one (of three or more)" }
+{ "ja": "講師", "en": "こうし" },
+{ "ja": "理論", "en": "りろん" },
+{ "ja": "車輪", "en": "しゃりん" },
+{ "ja": "輸入", "en": "ゆにゅう" },
+{ "ja": "輸出", "en": "ゆしゅつ" },
+{ "ja": "比較", "en": "ひかく" },
+{ "ja": "効果", "en": "こうか" },
+{ "ja": "効く", "en": "きく" },
+{ "ja": "結果", "en": "けっか" },
+{ "ja": "果物", "en": "くだもの" },
+{ "ja": "果たす", "en": "はたす" },
+{ "ja": "交通", "en": "こうつう" },
+{ "ja": "外交", "en": "がいこう" },
     ],
     "17": [
       { "ja": "おぼえます", "en": "memorize" }, { "ja": "わすれます", "en": "forget" }, { "ja": "なくします", "en": "lose" }, { "ja": "だします", "en": "hand in (a report)" }, { "ja": "はらいます", "en": "pay" }, { "ja": "かえします", "en": "give back, return" }, { "ja": "でかけます", "en": "go out" }, { "ja": "ぬぎます", "en": "take off (clothes, shoes, etc.)" }, { "ja": "もっていきます", "en": "take (something)" }, { "ja": "もってきます", "en": "bring (something)" }, { "ja": "しんぱいします", "en": "worry" }, { "ja": "ざんぎょうします", "en": "work overtime" }, { "ja": "しゅっちょうします", "en": "go on a business trip" }, { "ja": "のみます", "en": "take (medicine)" }, { "ja": "はいります", "en": "take (a bath)" }, { "ja": "たいせつ", "en": "important, precious" }, { "ja": "だいじょうぶ", "en": "all right" }, { "ja": "あぶない", "en": "dangerous" }, { "ja": "もんだい", "en": "question, problem, trouble" }, { "ja": "こたえ", "en": "answer" }, { "ja": "きんえん", "en": "no smoking" }, { "ja": "けんこうほけんしょう", "en": "health insurance card" }, { "ja": "かぜ", "en": "a cold" }, { "ja": "ねつ", "en": "fever" }, { "ja": "びょうき", "en": "illness, disease" }, { "ja": "くすり", "en": "medicine" }, { "ja": "おふろ", "en": "bath" }, { "ja": "うわぎ", "en": "jacket, outerwear" }, { "ja": "したぎ", "en": "underwear" }, { "ja": "せんせい", "en": "doctor (used when addressing a medical doctor)" }, { "ja": "に", "en": "a few days" }, { "ja": "までに", "en": "before, by (indicating time limit)" }, { "ja": "ですから", "en": "therefore, so" }
