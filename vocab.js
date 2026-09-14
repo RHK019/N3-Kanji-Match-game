@@ -234,6 +234,7 @@ const vocabData = {
 { "ja": "以上", "en": "いじょう" },
     ],
     "11": [
+{ "ja": "以下", "en": "いか" },
 { "ja": "以内", "en": "いない" },
 { "ja": "以前", "en": "いぜん" },
 { "ja": "女性", "en": "じょせい" },
@@ -258,7 +259,29 @@ const vocabData = {
 { "ja": "表", "en": "おもて/ひょう" },
     ],
     "12": [
-      { "ja": "かんたん", "en": "easy, simple" }, { "ja": "ちかい", "en": "near" }, { "ja": "とおい", "en": "far" }, { "ja": "はやい", "en": "fast, early" }, { "ja": "おそい", "en": "late, slow" }, { "ja": "おおい", "en": "many, much (people)" }, { "ja": "すくない", "en": "few, a little (people)" }, { "ja": "あたたかい", "en": "warm" }, { "ja": "すずしい", "en": "cool" }, { "ja": "あまい", "en": "sweet" }, { "ja": "からい", "en": "hot (spicy), salty" }, { "ja": "おもい", "en": "heavy" }, { "ja": "かるい", "en": "light (in weight)" }, { "ja": "いい", "en": "prefer (coffee)" }, { "ja": "きせつ", "en": "season" }, { "ja": "はる", "en": "spring" }, { "ja": "なつ", "en": "summer" }, { "ja": "あき", "en": "autumn, fall" }, { "ja": "ふゆ", "en": "winter" }, { "ja": "てんき", "en": "weather" }, { "ja": "あめ", "en": "rain, rainy" }, { "ja": "ゆき", "en": "snow, snowy" }, { "ja": "くもり", "en": "cloudy" }, { "ja": "ホテル", "en": "hotel" }, { "ja": "くうこう", "en": "airport" }, { "ja": "うみ", "en": "sea, ocean" }, { "ja": "せかい", "en": "world" }, { "ja": "パーティー", "en": "party" }, { "ja": "おまつり", "en": "festival" }, { "ja": "すきやき", "en": "sukiyaki" }, { "ja": "さしみ", "en": "sashimi (sliced raw fish)" }, { "ja": "おすし", "en": "sushi (vinegared rice with fish)" }, { "ja": "てんぷら", "en": "tempura" }, { "ja": "ぶたにく", "en": "pork" }, { "ja": "とりにく", "en": "chicken" }, { "ja": "ぎゅうにく", "en": "beef" }, { "ja": "レモン", "en": "lemon" }, { "ja": "いけばな", "en": "flower arrangement" }, { "ja": "もみじ", "en": "maple, red leaves of autumn" }, { "ja": "どちら", "en": "which one (of two)" }, { "ja": "どちらも", "en": "both" }, { "ja": "いちばん", "en": "the most" }, { "ja": "ずっと", "en": "by far" }, { "ja": "はじめて", "en": "for the first time" }
+{ "ja": "表面", "en": "ひょうめん" },
+{ "ja": "場面", "en": "ばめん" },
+{ "ja": "最初", "en": "さいしょ" },
+{ "ja": "最後", "en": "さいご" },
+{ "ja": "最近", "en": "さいきん" },
+{ "ja": "最高の", "en": "さいこうの" },
+{ "ja": "最低の", "en": "さいていの" },
+{ "ja": "初め", "en": "はじめ" },
+{ "ja": "番号", "en": "ばんごう" },
+{ "ja": "信号", "en": "しんごう" },
+{ "ja": "労働", "en": "ろうどう" },
+{ "ja": "協力", "en": "きょうりょく" },
+{ "ja": "問", "en": "もん/とい" },
+{ "ja": "部門", "en": "ぶもん" },
+{ "ja": "関係", "en": "かんけい" },
+{ "ja": "関連", "en": "かんれん" },
+{ "ja": "孫", "en": "まご" },
+{ "ja": "体系", "en": "たいけい" },
+{ "ja": "懸案", "en": "けんあん" },
+{ "ja": "態度", "en": "たいど" },
+{ "ja": "池", "en": "いけ" },
+{ "ja": "電池", "en": "でんち" },
+{ "ja": "湖", "en": "みずうみ" },
     ],
     "13": [
       { "ja": "あそびます", "en": "play, enjoy oneself" }, { "ja": "およぎます", "en": "swim" }, { "ja": "むかえます", "en": "go to meet, welcome" }, { "ja": "つかれます", "en": "get tired" }, { "ja": "だします", "en": "send (a letter)" }, { "ja": "はいります", "en": "enter (a coffee shop)" }, { "ja": "でます", "en": "go out (of a coffee shop)" }, { "ja": "けっこんします", "en": "marry, get married" }, { "ja": "かいものします", "en": "do shopping" }, { "ja": "しょくじします", "en": "have a meal, dine" }, { "ja": "さんぽします", "en": "take a walk (in a park)" }, { "ja": "たいへん", "en": "hard, tough, severe, awful" }, { "ja": "ほしい", "en": "want (something)" }, { "ja": "さびしい", "en": "lonely" }, { "ja": "ひろい", "en": "wide, spacious" }, { "ja": "せまい", "en": "narrow, small (room, etc.)" }, { "ja": "しやくしょ", "en": "municipal office, city hall" }, { "ja": "プール", "en": "swimming pool" }, { "ja": "かわ", "en": "river" }, { "ja": "けいざい", "en": "economy" }, { "ja": "びじゅつ", "en": "fine arts" }, { "ja": "つり", "en": "fishing" }, { "ja": "スキー", "en": "skiing" }, { "ja": "かいぎ", "en": "meeting, conference" }, { "ja": "とうろく", "en": "registration" }, { "ja": "しゅうまつ", "en": "weekend" }, { "ja": "ごろ", "en": "about (time)" }, { "ja": "なにか", "en": "something" }, { "ja": "どこか", "en": "somewhere, some place" }, { "ja": "おなかがすきました", "en": "I'm hungry" }, { "ja": "おなかがいっぱいです", "en": "I'm full" }, { "ja": "のどがかわきました", "en": "I'm thirsty" }
