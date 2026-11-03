@@ -411,6 +411,16 @@ button.primary-btn:disabled {
     text-align: right;
 }
 
+#game-timer {
+    font-weight: bold;
+    color: var(--secondary-color);
+    font-size: 1.05rem;
+    min-width: 62px;
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+}
+
 #game-board {
     display: flex;
     justify-content: space-between;
@@ -803,6 +813,10 @@ footer {
 
                 </div>
 
+                <div id="game-timer" role="timer" aria-live="off">
+                    00:00
+                </div>
+
                 <div id="score">
                     0 / 0
                 </div>
@@ -1192,6 +1206,11 @@ footer {
                     'score'
                 ),
 
+            gameTimer:
+                document.getElementById(
+                    'game-timer'
+                ),
+
             mistakeCount:
                 document.getElementById(
                     'mistake-count'
@@ -1288,6 +1307,9 @@ footer {
             isReviewMode: false
 
         };
+
+        // Live game timer interval.
+        let timerInterval = null;
 
 
         /* ==========================================
@@ -1716,8 +1738,15 @@ footer {
                 0;
 
 
-            state.startTime =
-                Date.now();
+            // Start a fresh timer only for a new practice session.
+            // Review Mode continues the original session timer.
+            if (!isReview) {
+                state.startTime = Date.now();
+                if (elements.gameTimer) {
+                    elements.gameTimer.textContent = '00:00';
+                }
+                startGameTimer();
+            }
 
 
             updateProgress();
@@ -2546,15 +2575,48 @@ footer {
 
 
         /* ==========================================
+           LIVE GAME TIMER
+           ========================================== */
+
+        function updateGameTimer() {
+            if (!state.startTime || !elements.gameTimer) return;
+
+            const elapsedMs = Date.now() - state.startTime;
+            elements.gameTimer.textContent = formatTime(elapsedMs);
+        }
+
+        function startGameTimer() {
+            // Prevent multiple intervals from running.
+            stopGameTimer();
+
+            updateGameTimer();
+            timerInterval = setInterval(updateGameTimer, 1000);
+        }
+
+        function stopGameTimer() {
+            if (timerInterval !== null) {
+                clearInterval(timerInterval);
+                timerInterval = null;
+            }
+        }
+
+
+        /* ==========================================
            END GAME
            ========================================== */
 
         function endGame() {
 
+            // Freeze the timer when the session is complete.
+            const timeTakenMs = state.startTime
+                ? Date.now() - state.startTime
+                : 0;
 
-            const timeTakenMs =
-                Date.now() -
-                state.startTime;
+            stopGameTimer();
+
+            if (elements.gameTimer) {
+                elements.gameTimer.textContent = formatTime(timeTakenMs);
+            }
 
 
             elements.mistakeCount.textContent =
@@ -2744,6 +2806,8 @@ footer {
                     modals.quit.classList.remove(
                         'active'
                     );
+
+                    stopGameTimer();
 
                     showScreen(
                         'menu'
